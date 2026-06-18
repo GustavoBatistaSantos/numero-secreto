@@ -89,7 +89,7 @@ medidas();*/
 
 salaCircular();*/
 
-function tabuada() {
+/*function tabuada() {
     let numero = Number(prompt('Digite um número para saber a sua tabuada'));
 
     for (let i = 1; i <= 10; i++) {
@@ -98,4 +98,11 @@ function tabuada() {
     }
 }
 
-tabuada();
+tabuada();*/
+
+let listaGenerica = [];
+let linguagensDeProgramação = ['JavaScript','C','C++','Kotlin','Python'];
+linguagensDeProgramação.push('Java','Ruby','GoLang')
+console.log(linguagensDeProgramação)
+let familia = ['Rafaella','Valter','Isabel']
+console.log(familia[familia.length-1])
